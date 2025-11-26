@@ -1,0 +1,142 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.login-box h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+}
+
+form button {
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #764ba2;
+}
+
+.login-box p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.login-box a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .login-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  form input {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .login-box p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-box {
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .login-box h1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+
+  form {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  form input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .login-box p {
+    font-size: 0.85rem;
+  }
+
+  .login-box a {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,230 @@
+.premium-body {
+    text-align: center;
+    overflow-y: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1313px;
+    border: 2px solid white;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(81, 81, 90);
+    color: white;
+    border-radius: 30px;
+    margin-left: 195px;
+    margin-bottom: 0px;
+}
+
+.premium {
+    background-color: #1f2937;
+    
+    width: 1318px;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.premium-info {
+    background-color: #1f2937;
+    display: flex;
+    margin-left: 195px;
+    width: 1317.5px;
+    margin-top: 0%;
+    height: 550px;
+}
+
+.info-cards {
+    height: 400px;
+    margin: 40px;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 3px solid white;
+    background-color: rgb(81, 81, 90);
+    color: white;
+}
+
+.info-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.premium-footer {
+    background-color: #1f2937;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+    margin-left: 195px;
+    width: 1318px;
+    font-size: 0.9rem;
+}
+
+/* Tablet (1024px and below) */
+@media (max-width: 1024px) {
+    .premium-body {
+        width: 90%;
+        margin-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .premium {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .premium-info {
+        width: 90%;
+        margin-left: 50px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .info-cards {
+        width: 300px;
+        height: 350px;
+        margin: 20px;
+    }
+
+    .premium-footer {
+        width: 90%;
+        margin-left: 50px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+    .premium-body {
+        width: 95%;
+        margin-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .premium-body h1 {
+        font-size: 1.8rem;
+    }
+
+    .premium-body p {
+        font-size: 0.95rem;
+    }
+
+    .premium {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .premium-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .premium-info {
+        width: 95%;
+        margin-left: 10px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-cards {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 15px auto;
+    }
+
+    .info-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .premium-footer {
+        width: 95%;
+        margin-left: 10px;
+        font-size: 0.8rem;
+        padding: 15px;
+    }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+    .premium-body {
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .premium-body h1 {
+        font-size: 1.4rem;
+    }
+
+    .premium-body p {
+        font-size: 0.85rem;
+    }
+
+    .premium {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .premium-button {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+
+    .premium-info {
+        width: 100%;
+        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .info-cards {
+        width: 95%;
+        max-width: none;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .info-cards h1 {
+        font-size: 1.3rem;
+    }
+
+    .info-cards p {
+        font-size: 0.8rem;
+    }
+
+    .info-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .premium-footer {
+        width: 100%;
+        margin-left: 0px;
+        font-size: 0.75rem;
+        padding: 10px;
+    }
+}

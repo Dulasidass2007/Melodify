@@ -1,0 +1,5 @@
+.songcard{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}

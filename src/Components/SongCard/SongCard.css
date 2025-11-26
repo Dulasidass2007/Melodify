@@ -1,0 +1,165 @@
+.s.title {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.s.artist {
+    color: rgb(156, 155, 155);
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+}
+
+.bdy {
+    text-align: center;
+    overflow-y: hidden;
+    margin-top: 5px;
+    width: 1317.5px;
+    margin-left: 195px;
+    background-color: rgb(160, 160, 210);
+}
+
+.bdy2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    margin-top: 0px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 5px;
+    height: 200px;
+    width: 400px;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.song {
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.body {
+    overflow-y: hidden;
+}
+
+.y-scroll {
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 1024px) {
+    .bdy {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .bdy2 {
+        overflow-x: auto;
+    }
+
+    .container {
+        width: 300px;
+        height: 180px;
+        padding: 15px;
+    }
+
+    .s.title {
+        font-size: 1.1rem;
+    }
+
+    .s.artist {
+        font-size: 0.9rem;
+    }
+
+    .song {
+        margin-top: 60px;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 768px) {
+    .bdy {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .bdy2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+        overflow-y: auto;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 250px;
+        height: 150px;
+        margin: 10px auto;
+        padding: 12px;
+    }
+
+    .s.title {
+        font-size: 1rem;
+    }
+
+    .s.artist {
+        font-size: 0.85rem;
+    }
+
+    .song {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+}
+
+/* Small Mobile (320px and below) */
+@media (max-width: 480px) {
+    .bdy {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .bdy2 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        height: 140px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .s.title {
+        font-size: 0.9rem;
+    }
+
+    .s.artist {
+        font-size: 0.8rem;
+    }
+
+    .song {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
